@@ -11,7 +11,7 @@ st.set_page_config(
     layout="wide",
 )
 
-st.title("🎓 Laboratorio Interactivo de Aprendizaje Supervisado")
+st.title("🎓 Laboratorio de Aprendizaje Supervisado")
 st.markdown(
     """
     Bienvenido a esta aplicación multipágina diseñada para **aprender, experimentar y ejercitar**
