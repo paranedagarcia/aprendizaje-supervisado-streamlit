@@ -1,6 +1,8 @@
-# 🎓 Laboratorio Interactivo de Aprendizaje Supervisado (Streamlit)
+# 🎓 Laboratorio de Aprendizaje Supervisado
 
 Aplicación multipágina en Python con **Streamlit** y **scikit-learn** orientada al aprendizaje y práctica de algoritmos de **Aprendizaje Supervisado**.
+
+![](streamlit-data.jpg)
 
 ## Estructura del Proyecto
 
