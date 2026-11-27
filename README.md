@@ -65,10 +65,17 @@ pip install -r requirements.txt
 python -m streamlit run app.py
 ```
 
-O usando `uv`:
+O usando `uv`. Ejecuta cada línea en el orden que indica:
 
-```powershell
-uv venv
+```bash
+uv venv --python 3.14
+source .venv/bin/activate  # For Linux/Mac
+.venv\Scripts\activate     # For Windows
+uv init
 uv pip install -r requirements.txt
-.\.venv\Scripts\python.exe -m streamlit run app.py
+uv sync
+```
+Para arrancar la aplicación.
+```
+streamlit run app.py
 ```
